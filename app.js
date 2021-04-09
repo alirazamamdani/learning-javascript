@@ -96,9 +96,9 @@
 // document.write("Sum of "+ one + " and " + two + " is "+ finalAnswer)
 
 
-var random;
-document.write("Value after variable declaration is "+ random + "<br>")
-random = 5;
-document.write("Initial Value: "+ random+ " <br>")
-var randomadd = ++random;
-document.write("Value after increment :"+ randomadd);
+// var random;
+// document.write("Value after variable declaration is "+ random + "<br>")
+// random = 5;
+// document.write("Initial Value: "+ random+ " <br>")
+// var randomadd = ++random;
+// document.write("Value after increment :"+ randomadd);
