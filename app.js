@@ -95,10 +95,40 @@
 
 // document.write("Sum of "+ one + " and " + two + " is "+ finalAnswer)
 
+//Question No 3
+// var number;
+// document.write("Value after variable deceleration " + number+ "<br>");
+// number = 5;
+// document.write("Initial Value: "+ number+ "<br>")
+// var add = ++number;
+// document.write("Value after incremenet is: "+ add + "<br>")
+// var addnumber = 7 + add;
+// document.write("Value after addition: "+ addnumber + "<br>")
+// var dec = --addnumber;
+// document.write("Value after decrement is "+ dec + "<br>")
+// var divide = dec % 3;
+// document.write("The Remainder is: "+ divide)
 
-// var random;
-// document.write("Value after variable declaration is "+ random + "<br>")
-// random = 5;
-// document.write("Initial Value: "+ random+ " <br>")
-// var randomadd = ++random;
-// document.write("Value after increment :"+ randomadd);
+// Question No 4
+// var ticketPrice = 600;
+// var ticketQuantity = +prompt("how many tickets you want to buy");
+
+// var calcAmount = ticketPrice * ticketQuantity;
+// document.write("Total Cost of buy "+ ticketQuantity + " tickets to a movie is "+ calcAmount+"PKR");
+
+// Question No 5 
+// var table = prompt("Enter a Table Number")
+// document.write("Table of "+ table + "<br>")
+
+// for(var i = 0; i < 11; i++) {
+//     document.write(table + " x "+ i  + " = " + i*table + "<br>")
+// }
+
+// Question No 6
+// var celsuisTemprature = 20;
+// var celsuisintoFahrenheit = (celsuisTemprature - 9 /5 ) + 32;
+// var fahrenitTemperature = 70;
+// var fahrenheittocelsuis = (fahrenitTemperature - 32 ) * 5 / 9;
+
+// document.write(celsuisTemprature + "<sup>0</sup>C is " + celsuisintoFahrenheit + "<br>")
+// document.write(fahrenitTemperature + "<sup>0</sup>C is " + fahrenheittocelsuis + "<br>")
